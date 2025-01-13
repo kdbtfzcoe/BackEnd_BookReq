@@ -37,6 +37,8 @@ const submitBookReqForm = require('./API/submit');
 
 app.use("/api/submit", submitBookReqForm);
 
+/*
+
 // start the server locally
 
 const PORT = 5003;
@@ -46,7 +48,7 @@ app.listen(PORT, () => {
 });
 
 
-/* 
+*/
 
 // start the server microsoft azure
 
@@ -56,4 +58,3 @@ server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 })
 
-*/
